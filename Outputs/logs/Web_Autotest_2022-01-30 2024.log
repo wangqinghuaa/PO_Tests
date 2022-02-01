@@ -1,0 +1,5 @@
+ Sun, 30 Jan 2022 20:24:14  INFO logger.py <module> [ line:28 ] hehehe
+ Sun, 30 Jan 2022 20:24:15  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('id', 'kw') 可见。
+ Sun, 30 Jan 2022 20:24:15  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2022-01-30 20:24:15.884066，结束等待时间点：2022-01-30 20:24:15.911612，等待时长为：0:00:00.027546
+ Sun, 30 Jan 2022 20:24:15  INFO basepage.py get_element [ line:51 ] 查找 柠檬班 中的元素 ('id', 'kw') 
+ Sun, 30 Jan 2022 20:24:15  INFO basepage.py input_text [ line:91 ]  给元素 ('id', 'kw') 输入文本内容:('百度页面_搜索输入界面',)

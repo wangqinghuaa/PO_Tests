@@ -1,0 +1,15 @@
+ Tue, 01 Feb 2022 18:19:22  INFO test_login.py test_login_success [ line:23 ] ***登录用例_正常场景-登录成功***
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py input_text [ line:83 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:auto
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 18:19:22.241159，结束等待时间：2022-02-01 18:19:22.268087，等待时长为：0:00:00.026928
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py get_element [ line:57 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py input_text [ line:83 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:sdfsdfsdf
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 18:19:22.313112，结束等待时间：2022-02-01 18:19:22.331063，等待时长为：0:00:00.017951
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py get_element [ line:57 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py click_element [ line:69 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 18:19:22.374413，结束等待时间：2022-02-01 18:19:22.390178，等待时长为：0:00:00.015765
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py get_element [ line:57 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py wait_ele_visible [ line:30 ] 添加课程页面_获取退出按钮等待('xpath', '//button[@ng-click="logout()"]')元素可见
+ Tue, 01 Feb 2022 18:19:22  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 18:19:22.421284，结束等待时间：2022-02-01 18:19:22.982753，等待时长为：0:00:00.561469

@@ -1,0 +1,63 @@
+ Tue, 01 Feb 2022 16:27:16  INFO test_login.py test_login_tailed_no_username [ line:31 ] ***登录用例：异常场景-登录失败
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py input_text [ line:83 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:auto
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:16.023466，结束等待时间：2022-02-01 16:27:16.049396，等待时长为：0:00:00.025930
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py get_element [ line:57 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py input_text [ line:83 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:sdfsdfs
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:16.095674，结束等待时间：2022-02-01 16:27:16.114038，等待时长为：0:00:00.018364
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py get_element [ line:57 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py click_element [ line:69 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:16.163379，结束等待时间：2022-02-01 16:27:16.179300，等待时长为：0:00:00.015921
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py get_element [ line:57 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_获取登录区域的错误提示元素：等待('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')元素可见
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:16.212247，结束等待时间：2022-02-01 16:27:16.746591，等待时长为：0:00:00.534344
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py get_ele_text [ line:112 ] 在登录页面_获取登录区域的错误提示元素：获取元素的文本内容 ('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_获取登录区域的错误提示元素：等待('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')元素可见
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:16.747017，结束等待时间：2022-02-01 16:27:16.760827，等待时长为：0:00:00.013810
+ Tue, 01 Feb 2022 16:27:16  INFO basepage.py get_element [ line:57 ] 在登录页面_获取登录区域的错误提示元素：查找元素：('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')
+ Tue, 01 Feb 2022 16:27:16  ERROR basepage.py get_ele_text [ line:122 ] 文本值为：登录失败 : 用户或者密码错误
+NoneType: None
+ Tue, 01 Feb 2022 16:27:20  INFO test_login.py test_login_tailed_no_username [ line:31 ] ***登录用例：异常场景-登录失败
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py input_text [ line:83 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:20.536920，结束等待时间：2022-02-01 16:27:20.561721，等待时长为：0:00:00.024801
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py get_element [ line:57 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py input_text [ line:83 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:sdfsdfsdf
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:20.601849，结束等待时间：2022-02-01 16:27:20.621707，等待时长为：0:00:00.019858
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py get_element [ line:57 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py click_element [ line:69 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:20.672563，结束等待时间：2022-02-01 16:27:20.688312，等待时长为：0:00:00.015749
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py get_element [ line:57 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Tue, 01 Feb 2022 16:27:20  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_获取登录区域的错误提示元素：等待('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')元素可见
+ Tue, 01 Feb 2022 16:27:21  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:20.722341，结束等待时间：2022-02-01 16:27:21.257600，等待时长为：0:00:00.535259
+ Tue, 01 Feb 2022 16:27:21  INFO basepage.py get_ele_text [ line:112 ] 在登录页面_获取登录区域的错误提示元素：获取元素的文本内容 ('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')
+ Tue, 01 Feb 2022 16:27:21  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_获取登录区域的错误提示元素：等待('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')元素可见
+ Tue, 01 Feb 2022 16:27:21  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:21.258614，结束等待时间：2022-02-01 16:27:21.270782，等待时长为：0:00:00.012168
+ Tue, 01 Feb 2022 16:27:21  INFO basepage.py get_element [ line:57 ] 在登录页面_获取登录区域的错误提示元素：查找元素：('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')
+ Tue, 01 Feb 2022 16:27:21  ERROR basepage.py get_ele_text [ line:122 ] 文本值为：登录失败 : 用户或者密码错误
+NoneType: None
+ Tue, 01 Feb 2022 16:27:24  INFO test_login.py test_login_tailed_no_username [ line:31 ] ***登录用例：异常场景-登录失败
+ Tue, 01 Feb 2022 16:27:24  INFO basepage.py input_text [ line:83 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:auto
+ Tue, 01 Feb 2022 16:27:24  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Tue, 01 Feb 2022 16:27:24  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:24.940520，结束等待时间：2022-02-01 16:27:24.965373，等待时长为：0:00:00.024853
+ Tue, 01 Feb 2022 16:27:24  INFO basepage.py get_element [ line:57 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py input_text [ line:83 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:25.013378，结束等待时间：2022-02-01 16:27:25.031530，等待时长为：0:00:00.018152
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py get_element [ line:57 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py click_element [ line:69 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:25.074185，结束等待时间：2022-02-01 16:27:25.090014，等待时长为：0:00:00.015829
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py get_element [ line:57 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_获取登录区域的错误提示元素：等待('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')元素可见
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:25.123854，结束等待时间：2022-02-01 16:27:25.663512，等待时长为：0:00:00.539658
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py get_ele_text [ line:112 ] 在登录页面_获取登录区域的错误提示元素：获取元素的文本内容 ('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_获取登录区域的错误提示元素：等待('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')元素可见
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:27:25.664536，结束等待时间：2022-02-01 16:27:25.679146，等待时长为：0:00:00.014610
+ Tue, 01 Feb 2022 16:27:25  INFO basepage.py get_element [ line:57 ] 在登录页面_获取登录区域的错误提示元素：查找元素：('xpath', '//*[@class="modal-body"]//*[@class="bootstrap-dialog-message"]')
+ Tue, 01 Feb 2022 16:27:25  ERROR basepage.py get_ele_text [ line:122 ] 文本值为：登录失败 : 用户或者密码错误
+NoneType: None

@@ -1,0 +1,7 @@
+ Mon, 31 Jan 2022 11:05:46  ERROR basepage.py swith_to_iframe [ line:157 ] iframe切换失败
+Traceback (most recent call last):
+  File "E:/tmp/PO_Test/Common/basepage.py", line 155, in swith_to_iframe
+    iframe = WebDriverWait(self,driver,20).until(EC.frame_to_be_available_and_switch_to_it(loc))
+  File "D:\python3.6\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'WebDriver'

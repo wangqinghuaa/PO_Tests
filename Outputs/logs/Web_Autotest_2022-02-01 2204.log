@@ -1,0 +1,30 @@
+ Tue, 01 Feb 2022 22:04:05  INFO test_login.py test_login_success [ line:23 ] ***登录用例_正常场景-登录成功***
+ Tue, 01 Feb 2022 22:04:05  INFO basepage.py input_text [ line:83 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:auto
+ Tue, 01 Feb 2022 22:04:05  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Tue, 01 Feb 2022 22:04:05  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 22:04:05.863439，结束等待时间：2022-02-01 22:04:05.889782，等待时长为：0:00:00.026343
+ Tue, 01 Feb 2022 22:04:05  INFO basepage.py get_element [ line:57 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Tue, 01 Feb 2022 22:04:05  INFO basepage.py input_text [ line:83 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:sdfsdfsdf
+ Tue, 01 Feb 2022 22:04:05  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Tue, 01 Feb 2022 22:04:05  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 22:04:05.937542，结束等待时间：2022-02-01 22:04:05.956281，等待时长为：0:00:00.018739
+ Tue, 01 Feb 2022 22:04:05  INFO basepage.py get_element [ line:57 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Tue, 01 Feb 2022 22:04:06  INFO basepage.py click_element [ line:69 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Tue, 01 Feb 2022 22:04:06  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Tue, 01 Feb 2022 22:04:06  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 22:04:06.006224，结束等待时间：2022-02-01 22:04:06.022525，等待时长为：0:00:00.016301
+ Tue, 01 Feb 2022 22:04:06  INFO basepage.py get_element [ line:57 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Tue, 01 Feb 2022 22:04:06  INFO basepage.py wait_ele_visible [ line:30 ] 添加课程页面_获取退出按钮等待('xpath', '//button[@ng-click="logout()"]')元素可见
+ Tue, 01 Feb 2022 22:04:06  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 22:04:06.054495，结束等待时间：2022-02-01 22:04:06.602155，等待时长为：0:00:00.547660
+ Tue, 01 Feb 2022 22:04:29  INFO test_login.py test_login_success [ line:23 ] ***登录用例_正常场景-登录成功***
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py input_text [ line:83 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:auto
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 22:04:29.427301，结束等待时间：2022-02-01 22:04:29.453179，等待时长为：0:00:00.025878
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py get_element [ line:57 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py input_text [ line:83 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:sdfsdfsdf
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 22:04:29.498502，结束等待时间：2022-02-01 22:04:29.517372，等待时长为：0:00:00.018870
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py get_element [ line:57 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py click_element [ line:69 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 22:04:29.566725，结束等待时间：2022-02-01 22:04:29.582881，等待时长为：0:00:00.016156
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py get_element [ line:57 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Tue, 01 Feb 2022 22:04:29  INFO basepage.py wait_ele_visible [ line:30 ] 添加课程页面_获取退出按钮等待('xpath', '//button[@ng-click="logout()"]')元素可见
+ Tue, 01 Feb 2022 22:04:30  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 22:04:29.614973，结束等待时间：2022-02-01 22:04:30.150406，等待时长为：0:00:00.535433

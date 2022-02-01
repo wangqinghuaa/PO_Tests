@@ -1,0 +1,4 @@
+ Mon, 31 Jan 2022 10:28:44  INFO basepage.py input_text [ line:69 ]  在百度页面_搜索输入操作往元素 ('id', 'kw') 输入文本值:柠檬班
+ Mon, 31 Jan 2022 10:28:44  INFO basepage.py wait_ele_visible [ line:30 ] 百度页面_搜索输入操作等待('id', 'kw')元素可见
+ Mon, 31 Jan 2022 10:28:44  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-01-31 10:28:44.124526，结束等待时间：2022-01-31 10:28:44.147466，等待时长为：0:00:00.022940
+ Mon, 31 Jan 2022 10:28:44  INFO basepage.py get_element [ line:43 ] 在百度页面_搜索输入操作查找元素：('id', 'kw')

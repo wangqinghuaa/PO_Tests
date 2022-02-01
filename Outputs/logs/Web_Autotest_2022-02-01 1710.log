@@ -1,0 +1,69 @@
+ Tue, 01 Feb 2022 17:10:17  INFO test_login.py test_login_success [ line:23 ] ***登录用例_正常场景-登录成功***
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py input_text [ line:83 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 17:10:17.018655，结束等待时间：2022-02-01 17:10:17.045581，等待时长为：0:00:00.026926
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py get_element [ line:57 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py input_text [ line:83 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:sdfsdfsdf
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 17:10:17.084477，结束等待时间：2022-02-01 17:10:17.105422，等待时长为：0:00:00.020945
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py get_element [ line:57 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py click_element [ line:69 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 17:10:17.152266，结束等待时间：2022-02-01 17:10:17.167163，等待时长为：0:00:00.014897
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py get_element [ line:57 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Tue, 01 Feb 2022 17:10:17  INFO basepage.py wait_ele_visible [ line:30 ] 添加课程页面_获取退出按钮等待('xpath', '//button[@ng-click="logout()"]')元素可见
+ Tue, 01 Feb 2022 17:10:37  INFO basepage.py save_page_shot [ line:140 ] 截取当前网页成功并储存在：E:\tmp\PO_Test\Outputs\screenshots/添加课程页面_获取退出按钮_2022-02-01 17_10_37.png
+ Tue, 01 Feb 2022 17:10:37  ERROR basepage.py wait_ele_visible [ line:38 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "E:\tmp\PO_Test\Common\basepage.py", line 33, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency=poll_fre).until(EC.visibility_of_element_located(loc))
+  File "d:\python3.6\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Tue, 01 Feb 2022 17:10:46  INFO test_login.py test_login_success [ line:23 ] ***登录用例_正常场景-登录成功***
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py input_text [ line:83 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 17:10:46.485576，结束等待时间：2022-02-01 17:10:46.513499，等待时长为：0:00:00.027923
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py get_element [ line:57 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py input_text [ line:83 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:sdfsdfsdf
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 17:10:46.550125，结束等待时间：2022-02-01 17:10:46.568951，等待时长为：0:00:00.018826
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py get_element [ line:57 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py click_element [ line:69 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 17:10:46.617600，结束等待时间：2022-02-01 17:10:46.633454，等待时长为：0:00:00.015854
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py get_element [ line:57 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Tue, 01 Feb 2022 17:10:46  INFO basepage.py wait_ele_visible [ line:30 ] 添加课程页面_获取退出按钮等待('xpath', '//button[@ng-click="logout()"]')元素可见
+ Tue, 01 Feb 2022 17:11:07  INFO basepage.py save_page_shot [ line:140 ] 截取当前网页成功并储存在：E:\tmp\PO_Test\Outputs\screenshots/添加课程页面_获取退出按钮_2022-02-01 17_11_07.png
+ Tue, 01 Feb 2022 17:11:07  ERROR basepage.py wait_ele_visible [ line:38 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "E:\tmp\PO_Test\Common\basepage.py", line 33, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency=poll_fre).until(EC.visibility_of_element_located(loc))
+  File "d:\python3.6\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Tue, 01 Feb 2022 17:11:15  INFO test_login.py test_login_success [ line:23 ] ***登录用例_正常场景-登录成功***
+ Tue, 01 Feb 2022 17:11:15  INFO basepage.py input_text [ line:83 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:
+ Tue, 01 Feb 2022 17:11:15  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Tue, 01 Feb 2022 17:11:15  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 17:11:15.934793，结束等待时间：2022-02-01 17:11:15.961721，等待时长为：0:00:00.026928
+ Tue, 01 Feb 2022 17:11:15  INFO basepage.py get_element [ line:57 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Tue, 01 Feb 2022 17:11:16  INFO basepage.py input_text [ line:83 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:sdfsdfsdf
+ Tue, 01 Feb 2022 17:11:16  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Tue, 01 Feb 2022 17:11:16  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 17:11:16.002573，结束等待时间：2022-02-01 17:11:16.022442，等待时长为：0:00:00.019869
+ Tue, 01 Feb 2022 17:11:16  INFO basepage.py get_element [ line:57 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Tue, 01 Feb 2022 17:11:16  INFO basepage.py click_element [ line:69 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Tue, 01 Feb 2022 17:11:16  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Tue, 01 Feb 2022 17:11:16  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 17:11:16.075299，结束等待时间：2022-02-01 17:11:16.091272，等待时长为：0:00:00.015973
+ Tue, 01 Feb 2022 17:11:16  INFO basepage.py get_element [ line:57 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Tue, 01 Feb 2022 17:11:16  INFO basepage.py wait_ele_visible [ line:30 ] 添加课程页面_获取退出按钮等待('xpath', '//button[@ng-click="logout()"]')元素可见
+ Tue, 01 Feb 2022 17:11:36  INFO basepage.py save_page_shot [ line:140 ] 截取当前网页成功并储存在：E:\tmp\PO_Test\Outputs\screenshots/添加课程页面_获取退出按钮_2022-02-01 17_11_36.png
+ Tue, 01 Feb 2022 17:11:36  ERROR basepage.py wait_ele_visible [ line:38 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "E:\tmp\PO_Test\Common\basepage.py", line 33, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency=poll_fre).until(EC.visibility_of_element_located(loc))
+  File "d:\python3.6\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

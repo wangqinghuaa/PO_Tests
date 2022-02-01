@@ -1,0 +1,46 @@
+ Mon, 31 Jan 2022 00:01:27  INFO logger.py <module> [ line:28 ] hehehe
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py input_text [ line:69 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:auto
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-01-31 00:01:29.591452，结束等待时间：2022-01-31 00:01:29.622047，等待时长为：0:00:00.030595
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py get_element [ line:43 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py input_text [ line:69 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:sdfsdfsdf
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-01-31 00:01:29.677876，结束等待时间：2022-01-31 00:01:29.697134，等待时长为：0:00:00.019258
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py get_element [ line:43 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py click_element [ line:55 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-01-31 00:01:29.744319，结束等待时间：2022-01-31 00:01:29.759682，等待时长为：0:00:00.015363
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py get_element [ line:43 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Mon, 31 Jan 2022 00:01:29  INFO basepage.py wait_ele_visible [ line:30 ] 添加课程页面_获取退出按钮等待('xpath', '//button[@ng-click="logout()"]')元素可见
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-01-31 00:01:29.791319，结束等待时间：2022-01-31 00:01:30.315735，等待时长为：0:00:00.524416
+ Mon, 31 Jan 2022 00:01:30  INFO test_add.py test_add_tailed_no_username [ line:50 ] ***添加课程用例：异常场景/添加相同的课程
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py click_element [ line:55 ] 在登录页面_点击添加课程点击('xpath', '//button[@ng-click="showAddOne=true"]')元素
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击添加课程等待('xpath', '//button[@ng-click="showAddOne=true"]')元素可见
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-01-31 00:01:30.315735，结束等待时间：2022-01-31 00:01:30.337921，等待时长为：0:00:00.022186
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py get_element [ line:43 ] 在登录页面_点击添加课程查找元素：('xpath', '//button[@ng-click="showAddOne=true"]')
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py input_text [ line:69 ]  在输入课程名称往元素 ('xpath', '//input[@ng-model="addData.name"]') 输入文本值:大学语文
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py wait_ele_visible [ line:30 ] 输入课程名称等待('xpath', '//input[@ng-model="addData.name"]')元素可见
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-01-31 00:01:30.371622，结束等待时间：2022-01-31 00:01:30.387579，等待时长为：0:00:00.015957
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py get_element [ line:43 ] 在输入课程名称查找元素：('xpath', '//input[@ng-model="addData.name"]')
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py input_text [ line:69 ]  在输入课程名称描述往元素 ('xpath', '//textarea[@ng-model="addData.desc"]') 输入文本值:大学语文课程
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py wait_ele_visible [ line:30 ] 输入课程名称描述等待('xpath', '//textarea[@ng-model="addData.desc"]')元素可见
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-01-31 00:01:30.426601，结束等待时间：2022-01-31 00:01:30.446601，等待时长为：0:00:00.020000
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py get_element [ line:43 ] 在输入课程名称描述查找元素：('xpath', '//textarea[@ng-model="addData.desc"]')
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py input_text [ line:69 ]  在输入课程展示次序往元素 ('xpath', '//input[@ng-model="addData.display_idx"]') 输入文本值:5
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py wait_ele_visible [ line:30 ] 输入课程展示次序等待('xpath', '//input[@ng-model="addData.display_idx"]')元素可见
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-01-31 00:01:30.491896，结束等待时间：2022-01-31 00:01:30.507519，等待时长为：0:00:00.015623
+ Mon, 31 Jan 2022 00:01:30  INFO basepage.py get_element [ line:43 ] 在输入课程展示次序查找元素：('xpath', '//input[@ng-model="addData.display_idx"]')
+ Mon, 31 Jan 2022 00:01:31  INFO basepage.py click_element [ line:55 ] 在点击创建点击('xpath', '//button[@ng-click="addOne()"]')元素
+ Mon, 31 Jan 2022 00:01:31  INFO basepage.py wait_ele_visible [ line:30 ] 点击创建等待('xpath', '//button[@ng-click="addOne()"]')元素可见
+ Mon, 31 Jan 2022 00:01:31  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-01-31 00:01:31.554158，结束等待时间：2022-01-31 00:01:31.574090，等待时长为：0:00:00.019932
+ Mon, 31 Jan 2022 00:01:31  INFO basepage.py get_element [ line:43 ] 在点击创建查找元素：('xpath', '//button[@ng-click="addOne()"]')
+ Mon, 31 Jan 2022 00:01:31  INFO basepage.py wait_ele_visible [ line:30 ] 添加课程页面_获取添加课程的错误提示：等待('xpath', '//*[@class="bootstrap-dialog-body"]/*[@class="bootstrap-dialog-message"]')元素可见
+ Mon, 31 Jan 2022 00:01:52  INFO basepage.py save_page_shot [ line:126 ] 截取当前网页成功并储存在：E:\tmp\PO_Test\Outputs\screenshots/添加课程页面_获取添加课程的错误提示：_2022-01-31 00_01_52.png
+ Mon, 31 Jan 2022 00:01:52  ERROR basepage.py wait_ele_visible [ line:38 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "E:\tmp\PO_Test\Common\basepage.py", line 33, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency=poll_fre).until(EC.visibility_of_element_located(loc))
+  File "D:\python3.6\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

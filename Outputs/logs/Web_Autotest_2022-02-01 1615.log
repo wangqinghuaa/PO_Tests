@@ -1,0 +1,62 @@
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py input_text [ line:83 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:auto
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:15:45.135432，结束等待时间：2022-02-01 16:15:45.161211，等待时长为：0:00:00.025779
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py get_element [ line:57 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py input_text [ line:83 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:sdfsdfsdf
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:15:45.206998，结束等待时间：2022-02-01 16:15:45.225331，等待时长为：0:00:00.018333
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py get_element [ line:57 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py click_element [ line:69 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:15:45.273396，结束等待时间：2022-02-01 16:15:45.288877，等待时长为：0:00:00.015481
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py get_element [ line:57 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Tue, 01 Feb 2022 16:15:45  INFO basepage.py wait_ele_visible [ line:30 ] 添加课程页面_获取退出按钮等待('xpath', '//button[@ng-click="logout()"]')元素可见
+ Tue, 01 Feb 2022 16:15:45  ERROR basepage.py save_page_shot [ line:142 ] 网页截屏失败！
+Traceback (most recent call last):
+  File "E:\tmp\PO_Test\Common\basepage.py", line 33, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency=poll_fre).until(EC.visibility_of_element_located(loc))
+  File "D:\python3.6\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python3.6\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python3.6\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+AttributeError: 'tuple' object has no attribute 'find_element'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\tmp\PO_Test\Common\basepage.py", line 139, in save_page_shot
+    self.driver.save_screenshot(file_path)
+AttributeError: 'tuple' object has no attribute 'save_screenshot'
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py input_text [ line:83 ]  在登录页面_输入用户名往元素 ('xpath', '//*[@id="username"]') 输入文本值:auto
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入用户名等待('xpath', '//*[@id="username"]')元素可见
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:15:49.167383，结束等待时间：2022-02-01 16:15:49.192317，等待时长为：0:00:00.024934
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py get_element [ line:57 ] 在登录页面_输入用户名查找元素：('xpath', '//*[@id="username"]')
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py input_text [ line:83 ]  在登录页面_输入密码往元素 ('xpath', '//*[@id="password"]') 输入文本值:sdfsdfsdf
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_输入密码等待('xpath', '//*[@id="password"]')元素可见
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:15:49.246059，结束等待时间：2022-02-01 16:15:49.264754，等待时长为：0:00:00.018695
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py get_element [ line:57 ] 在登录页面_输入密码查找元素：('xpath', '//*[@id="password"]')
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py click_element [ line:69 ] 在登录页面_点击登录按钮点击('xpath', '//*[@onclick="postLoginRequest()"]')元素
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py wait_ele_visible [ line:30 ] 登录页面_点击登录按钮等待('xpath', '//*[@onclick="postLoginRequest()"]')元素可见
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py wait_ele_visible [ line:35 ] 开始等待时间：2022-02-01 16:15:49.313692，结束等待时间：2022-02-01 16:15:49.329031，等待时长为：0:00:00.015339
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py get_element [ line:57 ] 在登录页面_点击登录按钮查找元素：('xpath', '//*[@onclick="postLoginRequest()"]')
+ Tue, 01 Feb 2022 16:15:49  INFO basepage.py wait_ele_visible [ line:30 ] 添加课程页面_获取退出按钮等待('xpath', '//button[@ng-click="logout()"]')元素可见
+ Tue, 01 Feb 2022 16:15:49  ERROR basepage.py save_page_shot [ line:142 ] 网页截屏失败！
+Traceback (most recent call last):
+  File "E:\tmp\PO_Test\Common\basepage.py", line 33, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency=poll_fre).until(EC.visibility_of_element_located(loc))
+  File "D:\python3.6\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python3.6\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python3.6\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+AttributeError: 'tuple' object has no attribute 'find_element'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\tmp\PO_Test\Common\basepage.py", line 139, in save_page_shot
+    self.driver.save_screenshot(file_path)
+AttributeError: 'tuple' object has no attribute 'save_screenshot'
