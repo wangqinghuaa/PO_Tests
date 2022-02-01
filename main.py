@@ -6,10 +6,14 @@
 # @File     : main.py
 # @Software : PyCharm
 
-from Common import dir_config
+
 import pytest
 
+# 使用html报告
+# pytest.main(["-s","-v","-m","smoke","--html=Outputs/report.html","--reruns","2","--reruns-delay","5"])
 
-pytest.main(["-s","-v","-m","smoke","--html={0}".format(dir_config.htmlreport_dir)])
+# 使用allure报告
+pytest.main(["-s","-v","-m","smoke","--html=Outputs/reports/pytest.html",
+                  "--alluredir=Outputs/allure"])
 
 
