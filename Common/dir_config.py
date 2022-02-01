@@ -17,8 +17,6 @@ testdatas_dir = os.path.join(base_dir, "TestDatas")
 testcases_dir = os.path.join(base_dir, "TestCases")
 
 
-import time
-now=time.strftime("%Y-%m-%d-%H:%M:%S")
 htmlreport_dir = os.path.join(base_dir,r"Outputs\reports\reports.html")
 
 

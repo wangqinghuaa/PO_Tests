@@ -11,7 +11,6 @@ from selenium import webdriver
 from PageObjects.login_page import LoginPage
 from PageObjects.home_page import HomePage
 from PageObjects.del_page import DelPage
-import ddt  # 第二种方法
 from TestDatas import Global_Datas as GD
 from TestDatas import  login_datas as ld
 
