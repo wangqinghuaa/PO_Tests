@@ -24,7 +24,7 @@ class TestLogin:
         LoginPage(init_driver).login(*ld.success)
         assert HomePage(init_driver).get_element_exists()
 
-
+    @pytest.mark.regress
     @pytest.mark.parametrize("case",ld.case)
     def test_login_tailed_no_username(self, case, init_driver):  # 注意顺序执行
         # 步骤:登录页面-登录操作
