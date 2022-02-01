@@ -241,7 +241,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>reports.html</h1>
-    <p>Report generated on 01-Feb-2022 at 22:29:08 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.0</p>
+    <p>Report generated on 02-Feb-2022 at 01:55:27 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -260,8 +260,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.5</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 4.68 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <p>3 tests ran in 13.65 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -275,23 +275,87 @@ function filter_table(elem) {
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_login.py::TestLogin::test_login_success</td>
-          <td class="col-duration">0.75</td>
+          <td class="col-name">TestCases/test_login.py::TestLogin::test_login_tailed_no_username[case0]</td>
+          <td class="col-duration">0.74</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_login.py:23 ***登录用例_正常场景-登录成功***
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_login.py:31 ***登录用例：异常场景-登录失败
 INFO     root:basepage.py:83  在登录页面_输入用户名往元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;) 输入文本值:auto
 INFO     root:basepage.py:30 登录页面_输入用户名等待(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;)元素可见
-INFO     root:basepage.py:35 开始等待时间：2022-02-01 22:29:05.995367，结束等待时间：2022-02-01 22:29:06.021297，等待时长为：0:00:00.025930
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:15.862232，结束等待时间：2022-02-02 01:55:15.888161，等待时长为：0:00:00.025929
 INFO     root:basepage.py:57 在登录页面_输入用户名查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;)
-INFO     root:basepage.py:83  在登录页面_输入密码往元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;) 输入文本值:sdfsdfsdf
+INFO     root:basepage.py:83  在登录页面_输入密码往元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;) 输入文本值:sdfsdfs
 INFO     root:basepage.py:30 登录页面_输入密码等待(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;)元素可见
-INFO     root:basepage.py:35 开始等待时间：2022-02-01 22:29:06.071978，结束等待时间：2022-02-01 22:29:06.090689，等待时长为：0:00:00.018711
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:15.931284，结束等待时间：2022-02-02 01:55:15.948212，等待时长为：0:00:00.016928
 INFO     root:basepage.py:57 在登录页面_输入密码查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;)
 INFO     root:basepage.py:69 在登录页面_点击登录按钮点击(&#x27;xpath&#x27;, &#x27;//*[@onclick=&quot;postLoginRequest()&quot;]&#x27;)元素
 INFO     root:basepage.py:30 登录页面_点击登录按钮等待(&#x27;xpath&#x27;, &#x27;//*[@onclick=&quot;postLoginRequest()&quot;]&#x27;)元素可见
-INFO     root:basepage.py:35 开始等待时间：2022-02-01 22:29:06.137619，结束等待时间：2022-02-01 22:29:06.153698，等待时长为：0:00:00.016079
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:15.994753，结束等待时间：2022-02-02 01:55:16.010967，等待时长为：0:00:00.016214
 INFO     root:basepage.py:57 在登录页面_点击登录按钮查找元素：(&#x27;xpath&#x27;, &#x27;//*[@onclick=&quot;postLoginRequest()&quot;]&#x27;)
-INFO     root:basepage.py:30 添加课程页面_获取退出按钮等待(&#x27;xpath&#x27;, &#x27;//button[@ng-click=&quot;logout()&quot;]&#x27;)元素可见
-INFO     root:basepage.py:35 开始等待时间：2022-02-01 22:29:06.186177，结束等待时间：2022-02-01 22:29:06.740232，等待时长为：0:00:00.554055<br/></div></td></tr></tbody></table></body></html>
+INFO     root:basepage.py:30 登录页面_获取登录区域的错误提示元素：等待(&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:16.042285，结束等待时间：2022-02-02 01:55:16.572234，等待时长为：0:00:00.529949
+INFO     root:basepage.py:112 在登录页面_获取登录区域的错误提示元素：获取元素的文本内容 (&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)
+INFO     root:basepage.py:30 登录页面_获取登录区域的错误提示元素：等待(&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:16.573253，结束等待时间：2022-02-02 01:55:16.585660，等待时长为：0:00:00.012407
+INFO     root:basepage.py:57 在登录页面_获取登录区域的错误提示元素：查找元素：(&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)
+ERROR    root:basepage.py:122 文本值为：登录失败 : 用户或者密码错误
+NoneType: None<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_login.py::TestLogin::test_login_tailed_no_username[case1]</td>
+          <td class="col-duration">0.80</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_login.py:31 ***登录用例：异常场景-登录失败
+INFO     root:basepage.py:83  在登录页面_输入用户名往元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;) 输入文本值:
+INFO     root:basepage.py:30 登录页面_输入用户名等待(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:20.338286，结束等待时间：2022-02-02 01:55:20.363223，等待时长为：0:00:00.024937
+INFO     root:basepage.py:57 在登录页面_输入用户名查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;)
+INFO     root:basepage.py:83  在登录页面_输入密码往元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;) 输入文本值:sdfsdfsdf
+INFO     root:basepage.py:30 登录页面_输入密码等待(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:20.402090，结束等待时间：2022-02-02 01:55:20.421255，等待时长为：0:00:00.019165
+INFO     root:basepage.py:57 在登录页面_输入密码查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;)
+INFO     root:basepage.py:69 在登录页面_点击登录按钮点击(&#x27;xpath&#x27;, &#x27;//*[@onclick=&quot;postLoginRequest()&quot;]&#x27;)元素
+INFO     root:basepage.py:30 登录页面_点击登录按钮等待(&#x27;xpath&#x27;, &#x27;//*[@onclick=&quot;postLoginRequest()&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:20.473116，结束等待时间：2022-02-02 01:55:20.488059，等待时长为：0:00:00.014943
+INFO     root:basepage.py:57 在登录页面_点击登录按钮查找元素：(&#x27;xpath&#x27;, &#x27;//*[@onclick=&quot;postLoginRequest()&quot;]&#x27;)
+INFO     root:basepage.py:30 登录页面_获取登录区域的错误提示元素：等待(&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:20.521055，结束等待时间：2022-02-02 01:55:21.097404，等待时长为：0:00:00.576349
+INFO     root:basepage.py:112 在登录页面_获取登录区域的错误提示元素：获取元素的文本内容 (&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)
+INFO     root:basepage.py:30 登录页面_获取登录区域的错误提示元素：等待(&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:21.097404，结束等待时间：2022-02-02 01:55:21.118093，等待时长为：0:00:00.020689
+INFO     root:basepage.py:57 在登录页面_获取登录区域的错误提示元素：查找元素：(&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)
+ERROR    root:basepage.py:122 文本值为：登录失败 : 用户或者密码错误
+NoneType: None<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_login.py::TestLogin::test_login_tailed_no_username[case2]</td>
+          <td class="col-duration">0.80</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_login.py:31 ***登录用例：异常场景-登录失败
+INFO     root:basepage.py:83  在登录页面_输入用户名往元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;) 输入文本值:auto
+INFO     root:basepage.py:30 登录页面_输入用户名等待(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:24.815433，结束等待时间：2022-02-02 01:55:24.841364，等待时长为：0:00:00.025931
+INFO     root:basepage.py:57 在登录页面_输入用户名查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;)
+INFO     root:basepage.py:83  在登录页面_输入密码往元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;) 输入文本值:
+INFO     root:basepage.py:30 登录页面_输入密码等待(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:24.885139，结束等待时间：2022-02-02 01:55:24.904091，等待时长为：0:00:00.018952
+INFO     root:basepage.py:57 在登录页面_输入密码查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;)
+INFO     root:basepage.py:69 在登录页面_点击登录按钮点击(&#x27;xpath&#x27;, &#x27;//*[@onclick=&quot;postLoginRequest()&quot;]&#x27;)元素
+INFO     root:basepage.py:30 登录页面_点击登录按钮等待(&#x27;xpath&#x27;, &#x27;//*[@onclick=&quot;postLoginRequest()&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:24.943769，结束等待时间：2022-02-02 01:55:24.959695，等待时长为：0:00:00.015926
+INFO     root:basepage.py:57 在登录页面_点击登录按钮查找元素：(&#x27;xpath&#x27;, &#x27;//*[@onclick=&quot;postLoginRequest()&quot;]&#x27;)
+INFO     root:basepage.py:30 登录页面_获取登录区域的错误提示元素：等待(&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:24.990763，结束等待时间：2022-02-02 01:55:25.569709，等待时长为：0:00:00.578946
+INFO     root:basepage.py:112 在登录页面_获取登录区域的错误提示元素：获取元素的文本内容 (&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)
+INFO     root:basepage.py:30 登录页面_获取登录区域的错误提示元素：等待(&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)元素可见
+INFO     root:basepage.py:35 开始等待时间：2022-02-02 01:55:25.570707，结束等待时间：2022-02-02 01:55:25.594399，等待时长为：0:00:00.023692
+INFO     root:basepage.py:57 在登录页面_获取登录区域的错误提示元素：查找元素：(&#x27;xpath&#x27;, &#x27;//*[@class=&quot;modal-body&quot;]//*[@class=&quot;bootstrap-dialog-message&quot;]&#x27;)
+ERROR    root:basepage.py:122 文本值为：登录失败 : 用户或者密码错误
+NoneType: None<br/></div></td></tr></tbody></table></body></html>
