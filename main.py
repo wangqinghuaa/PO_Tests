@@ -14,13 +14,13 @@ import pytest
 
 
 # 使用allure生成的报告
-pytest.main(["--reruns", "2", "--reruns-delay", "5", "-s", "-v", "-m", "regress", "--junitxml=Outputs/reports/report.xml",
-              "--html=Outputs/reports/html_report.html", "--alluredir=Outputs/allure_reports"])
+# pytest.main(["--reruns", "2", "--reruns-delay", "5", "-s", "-v", "-m", "regress", "--junitxml=Outputs/reports/report.xml",
+#               "--html=Outputs/reports/html_report.html", "--alluredir=Outputs/allure_reports"])
 
 # 使用allure生成的报告(优先)
 # pytest.main(["-s", "-v", "--html=Outputs/reports/pytest.html", "--alluredir=Outputs/allure"])
 
-# pytest.main(["-s", "-v", "-m", "regress",
-#              "--reruns", "2", "--reruns-delay", "5","--alluredir=Outputs/allure",
-#              "--html=Outputs/reports/reports.html"])
+pytest.main(["-s", "-v", "-m", "regress",
+             "--reruns", "2", "--reruns-delay", "5","--alluredir=Outputs/allure",
+             "--html=Outputs/reports/reports.html"])
 
