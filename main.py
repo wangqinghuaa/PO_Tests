@@ -20,7 +20,7 @@ import pytest
 # 使用allure生成的报告(优先)
 # pytest.main(["-s", "-v", "--html=Outputs/reports/pytest.html", "--alluredir=Outputs/allure"])
 
-pytest.main(["-s", "-v", "-m", "regress", "--html=Outputs/reports/reports.html",
-             "--reruns", "2", "--reruns-delay", "5",
+pytest.main(["-s", "-v", "-m", "regress",
+             "--reruns", "2", "--reruns-delay", "5","--html=Outputs/reports/reports.html",
              "--alluredir=Outputs/allure"])
 
