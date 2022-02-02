@@ -21,6 +21,6 @@ import pytest
 # pytest.main(["-s", "-v", "--html=Outputs/reports/pytest.html", "--alluredir=Outputs/allure"])
 
 pytest.main(["-s", "-v", "-m", "regress",
-             "--reruns", "2", "--reruns-delay", "5","--html=Outputs/reports/reports.html",
-             "--alluredir=Outputs/allure"])
+             "--reruns", "2", "--reruns-delay", "5","--alluredir=Outputs/allure",
+             "--html=Outputs/reports/reports.html"])
 
